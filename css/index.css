@@ -138,12 +138,21 @@ body {
   color: #5E6164;
   margin: 0.5rem;
   padding: 0.5rem;
+
+  /* MY CODE */
 }
 /* .navigation, h1 {
   position: fixed; 
   text-align: center;
  }   */
- .navigation, a, h1 {
+/* h1, .navigation {
+  flex: none;
+  justify-content: space-between;
+  text-align: center;
+  position: fixed; 
+}*/
+
+ .navigation, a, h1 { 
 padding: 1rem;
 flex: none;
 flex-direction: row;
@@ -154,6 +163,9 @@ font-size: 2rem;
 font-family: sans-serif;
 color: #23293B; 
  } 
+
+ /* END MY CODE */
+
 h1,
 h2,
 h3,
@@ -242,6 +254,8 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+
+/* MY CODE */
 
 .btn {
   background-color: #22283A;
