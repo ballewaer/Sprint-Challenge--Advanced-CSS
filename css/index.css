@@ -261,9 +261,14 @@ footer {
   background-color: #22283A;
   color: white;
   border: 1px solid black;
-	padding: 5px 20px;
+  padding: 8px 25px;
+  border-radius: 8px;
 }
 
-@media( max-width: 500px ) {
-  padding: 20px;
+.header{
+  border-radius: 5px;
 }
+
+/* @media( max-width: 500px ) {
+  padding: 20px;
+} */
