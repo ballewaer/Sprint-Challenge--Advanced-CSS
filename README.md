@@ -111,7 +111,7 @@ Your finished project must include all of the following requirements:
 
 <!-- * [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html) -->
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+<!-- * [ ] Navigation Styles: Use the `navigation.less` file for styling. -->
 
 * [ ] Main Content Styles: Use the `home-page.less` file for styling
 
@@ -125,7 +125,7 @@ Your finished project must include all of the following requirements:
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+<!-- * [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling. -->
 
 * [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 

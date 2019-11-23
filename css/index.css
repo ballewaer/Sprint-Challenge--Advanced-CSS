@@ -139,6 +139,10 @@ body {
   margin: 0.5rem;
   padding: 0.5rem;
 }
+/* .navigation, h1 {
+  position: fixed; 
+  text-align: center;
+ }   */
  .navigation, a, h1 {
 padding: 1rem;
 flex: none;
@@ -237,4 +241,15 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.btn {
+  background-color: #22283A;
+  color: white;
+  border: 1px solid black;
+	padding: 5px 20px;
+}
+
+@media( max-width: 500px ) {
+  padding: 20px;
 }
