@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+adaptive and responsive are the same in the way that their apperance changes.  Adaptive websides adapt to the browser based on hard code.  The responsive website responds to the size of the browser, so it's fluid and will adapt to many screensizes. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means it was created for mobile first, then ajusted for bigger screens.  
+Desktop first means it was created for the large screens first, then the small screens (mobile)
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+62.5% in the HTTML taf helps convert REM untios by the power of 10.  This means that 1 rem = 10px.  throught the document. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+preprocessing organize CSS making it easier to maintaine.  They eetend the use of the CSS editing code, making it meaner and easier (operators, vairables, mixins)
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept are vairables.  Everything else gives me issues. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -66,11 +77,11 @@ Follow these steps for completing your project.
 
 ### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
-* [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
-* [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+<!-- * [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help. -->
+<!-- * [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command -->
+<!-- * [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less` -->
+<!-- * [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file. -->
+<!-- * [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task -->
 
 ## Minimum Viable Product
 
@@ -78,9 +89,9 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+<!-- * [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows: -->
 
-```markdown
+<!-- ```markdown
 1.variables.less
 2.mixins.less
 3.reset.less
@@ -88,9 +99,9 @@ Your finished project must include all of the following requirements:
 5.navigation.less
 6.footer.less
 7.home-page.less
-```
+``` -->
 
-_You will know everything is working properly when you see the styles enabled for the provided content._  
+<!-- _You will know everything is working properly when you see the styles enabled for the provided content._   -->
 
 ### Home Page - Desktop HTML & LESS
 
