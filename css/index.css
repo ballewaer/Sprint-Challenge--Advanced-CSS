@@ -257,12 +257,24 @@ footer {
 
 /* MY CODE */
 
-.btn {
+/* .btn {
   background-color: #22283A;
   color: white;
   border: 1px solid black;
   padding: 8px 25px;
   border-radius: 8px;
+} */
+
+.btn {
+  padding: 15px 30px;
+  background-color: #22283A;
+  color: #F6F6F6;
+cursor: pointer;
+
+/* &:hover {
+  background-color: #F6F6F6;
+  color: #22283A;
+} */
 }
 
 .header{
